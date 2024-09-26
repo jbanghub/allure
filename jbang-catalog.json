@@ -1,0 +1,10 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "allure": {
+      "script-ref": "allure.java",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}

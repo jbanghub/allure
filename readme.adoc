@@ -1,0 +1,23 @@
+# JBangHub Catalog for allure 
+
+This is a catalog of JBang scripts for [allure](https://allurereport.org/).
+
+Allure Report can be installed on any operating system using Java with JBang.
+
+Make sure [JBang](https://www.jbang.dev/) is installed.
+
+JBang will use existing Java or download a proper Java for you.
+
+In a terminal, run this command:
+
+```shell
+jbang app install allure@jbanghub/allure
+```
+
+Run this command to see if it reports the latest version:
+
+```shell
+allure --version
+```
+
+Curated and created by the community.
