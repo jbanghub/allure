@@ -45,7 +45,7 @@ public class allure {
 
     void run(String... args) throws IOException, InterruptedException {
         if (!allureExists()) {
-            System.out.println("Fetching allure %s".formatted(version));
+            System.out.println(String.format("Fetching allure %s", version));
            
             var deps = DependencyUtil.resolveDependencies(
                     List.of("io.qameta.allure:allure-commandline:"+version+"@zip"),
