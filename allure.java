@@ -49,7 +49,7 @@ public class allure {
            
             var deps = DependencyUtil.resolveDependencies(
                     List.of("io.qameta.allure:allure-commandline:"+version+"@zip"),
-                    List.of(), false, false, false, false);
+                    List.of(), false, false, false, false, false);
 
             UnpackUtil.unpack(
                     deps.getArtifacts().get(0).getFile(),
