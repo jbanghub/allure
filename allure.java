@@ -1,6 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVAC_OPTIONS -Xlint:-options
-//DEPS dev.jbang:jbang-cli:0.122.0
+//DEPS dev.jbang:jbang-cli:0.125.1
 
 // workaround to avoid weird method not found issue
 //DEPS org.apache.maven:maven-model:3.6.1
