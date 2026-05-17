@@ -3,7 +3,7 @@
 //DEPS dev.jbang:jbang-cli:0.132.1
 
 // workaround to avoid weird method not found issue
-//DEPS org.apache.maven:maven-model:3.9.11
+//DEPS org.apache.maven:maven-model:3.9.16
 
 //JAVA 11+
 
